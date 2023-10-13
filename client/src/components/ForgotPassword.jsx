@@ -15,7 +15,7 @@ const ForgotPassword = () => {
             <a href="https://twitter.com/techmannih">Twiter ( Techmannih )</a>
           </div>
           <div className="mail">
-            <a href="https://linkedin.com/in/techmannih">Linked In ( \Techmannih )</a>
+            <a href="https://linkedin.com/in/techmannih">Linked In ( Techmannih )</a>
           </div>
         </div>
         <div className="details btn">

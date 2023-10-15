@@ -5,6 +5,8 @@ const Logout = () => {
     const navigate = useNavigate()
 
     function handleclick() {
+        document.cookie = "userToken="
+
         navigate('/')
     }
 

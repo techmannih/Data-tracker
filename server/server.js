@@ -3,16 +3,14 @@ const cookieParser = require('cookie-parser')
 const authRoutes = require('./routes/routes');
 const cors = require('cors');
 
+require('dotenv').config();
+const mongoose = require('mongoose')
+
 const app= express()
 // middlewares
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
-require('dotenv').config();
-const mongoose = require('mongoose')
-
-
-
 // variables
 const HOST = 'localhost'
 const PORT= process.env.PORT || 2344
